@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000220
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -23,27 +24,46 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Tauffer, Luiz (2022) 1U01MH116990-25_Jan_2022 (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000220/draft
+citation: Zhang, Guang-Wei; Can Tao; Bo Peng (2022) 1U01MH116990-25_Jan_2022 (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000220/draft
 contributor:
 - affiliation: []
-  email: luiz_tauffer@hotmail.com
+  email: guangwei.zhang@med.usc.edu
   includeInCitation: true
-  name: Tauffer, Luiz
+  name: Zhang, Guang-Wei
   roleName:
+  - dcite:Author
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Can Tao
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Bo Peng
+  roleName: []
   schemaKey: Person
 dateCreated: '2022-01-25T13:48:47.136905+00:00'
 description: Patch-clamp recording data from spinal cord neurons. Data was generated
   at Huizhong Tao's lab at USC(htao@usc.edu). The recording was performed by Can Tao(cantao@usc.edu)
   and Bo Peng(pengb@usc.edu).
+ethicsApproval: []
 id: DANDI:000220/draft
 identifier: DANDI:000220
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000220/versions/draft/assets/
 name: 1U01MH116990-25_Jan_2022
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.2
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000220/draft
 version: draft
+wasGeneratedBy: []
