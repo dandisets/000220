@@ -24,11 +24,13 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Zhang, Guang-Wei; Tao, Can; Peng, Bo (2022) 1U01MH116990-25_Jan_2022 (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000220/draft
+citation: Zhang, Guang-Wei; Tao, Can; Peng, Bo (2022) Electrophysiological properties
+  of adult mouse spinal cord neurons - 25_Jan_2022 (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/000220/draft
 contributor:
 - affiliation: []
   email: guangwei.zhang@med.usc.edu
+  identifier: 0000-0002-3228-1981
   includeInCitation: true
   name: Zhang, Guang-Wei
   roleName:
@@ -36,15 +38,26 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0002-3914-1877
   includeInCitation: true
   name: Tao, Can
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0001-8122-189X
   includeInCitation: true
   name: Peng, Bo
   roleName: []
   schemaKey: Person
+- awardNumber: 1U01MH116990-01
+  contactPoint: []
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
 dateCreated: '2022-01-25T13:48:47.136905+00:00'
 description: Patch-clamp recording data from spinal cord neurons. Data was generated
   at Huizhong Tao's lab at USC(htao@usc.edu). The recording was performed by Can Tao(cantao@usc.edu)
@@ -57,10 +70,10 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000220/versions/draft/assets/
-name: 1U01MH116990-25_Jan_2022
+name: Electrophysiological properties of adult mouse spinal cord neurons - 25_Jan_2022
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget: []
